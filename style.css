@@ -216,6 +216,7 @@ figcaption {
 .arrow-right {
   position: absolute;
   top: 35%;
+  cursor: pointer;
 }
 .arrow-left img,
 .arrow-right img {
