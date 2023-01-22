@@ -262,12 +262,15 @@ a {
   body {
     position: relative;
   }
+  .wrapper {
+    position: relative;
+    overflow-x: hidden;
+  }
   .header,
   .main {
     flex-direction: column;
   }
   .header {
-    overflow-x: hidden;
     padding-top: 20px;
   }
   .overlay {
