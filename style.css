@@ -62,8 +62,9 @@ body {
 }
 .header {
   display: flex;
-  background-color: #b9b7b7;
+  background-color: hsl(0, 1%, 72%);
   align-items: center;
+  padding:20px 0;
 }
 .header__avatar {
   width: 40%;
@@ -218,6 +219,7 @@ figcaption {
   top: 35%;
   cursor: pointer;
 }
+
 .arrow-left img,
 .arrow-right img {
   width: 40px;
@@ -259,8 +261,6 @@ a {
 @media screen and (max-width: 650px) {
   body {
     position: relative;
-    overflow-x: hidden;
-    overflow-y: scroll;
   }
   .header,
   .main {
@@ -268,6 +268,8 @@ a {
   }
   .header {
     position: relative;
+    overflow-x: hidden;
+    padding-top: 20px;
   }
   .overlay {
     display: none;
