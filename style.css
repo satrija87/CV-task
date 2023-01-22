@@ -64,7 +64,7 @@ body {
   display: flex;
   background-color: hsl(0, 1%, 72%);
   align-items: center;
-  padding:20px 0;
+  padding: 20px 0;
 }
 .header__avatar {
   width: 40%;
@@ -267,7 +267,6 @@ a {
     flex-direction: column;
   }
   .header {
-    position: relative;
     overflow-x: hidden;
     padding-top: 20px;
   }
