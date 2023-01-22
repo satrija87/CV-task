@@ -247,7 +247,7 @@ footer {
   display: flex;
   justify-content: space-between;
 }
-.main h2 {
+.section-title {
   margin-bottom: 30px;
   border-bottom: 2px solid var(--title-color);
   width: fit-content;
@@ -353,9 +353,14 @@ a {
   .nav__item {
     list-style: none;
   }
+
   .left-column,
   .right-column {
     width: 100%;
+    padding: 0 20px;
+  }
+  .section-title {
+    align-self: center;
   }
   .skills-list {
     display: flex;
@@ -392,6 +397,4 @@ a {
     gap: 20px;
     align-items: center;
   }
-}
-@media screen and (max-width: 320px) {
 }
