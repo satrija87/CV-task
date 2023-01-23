@@ -376,9 +376,6 @@ a {
   }
 }
 @media screen and (max-width: 480px) {
-  header {
-    padding-bottom: 150px;
-  }
   .burger-menu {
     width: 300px;
   }
