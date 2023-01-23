@@ -305,14 +305,14 @@ a {
     transition: var(--transition);
     top: 0;
     visibility: visible;
-    right: 0;
+    right: 20px;
     padding: 50px 20px;
     background-color: #b26073;
     border-radius: 30px;
   }
   .burger-cross {
     background: url("assets/icons/cross.svg") no-repeat;
-    background-position: 100% 0;
+    background-position: 0;
     width: 20px;
     height: 20px;
     transition: var(--transition);
@@ -347,7 +347,7 @@ a {
   .nav__link {
     color: var(--white);
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 2rem;
     transition: var(--transition);
   }
   .nav__item {
@@ -396,5 +396,10 @@ a {
     flex-direction: column;
     gap: 20px;
     align-items: center;
+  }
+}
+@media screen and (max-width: 320px) {
+  .burger-menu.active {
+    right: 0;
   }
 }
