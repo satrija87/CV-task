@@ -62,7 +62,7 @@ body {
 }
 .header {
   display: flex;
-  background-color: hsl(0, 1%, 72%);
+  background-color: #b8b7b7;
   align-items: center;
   padding: 20px 0;
 }
@@ -273,8 +273,12 @@ a {
   .header {
     padding-top: 20px;
   }
+  .title-line {
+    display: none;
+  }
   .overlay {
     display: none;
+    transition: var(--transition);
   }
   .overlay.active {
     display: block;
@@ -302,11 +306,10 @@ a {
     list-style: none;
   }
   .burger-menu.active {
-    transition: var(--transition);
     top: 0;
     visibility: visible;
     right: 20px;
-    padding: 50px 20px;
+    padding: 20px;
     background-color: #b26073;
     border-radius: 30px;
   }
@@ -373,8 +376,21 @@ a {
   }
 }
 @media screen and (max-width: 480px) {
+  header {
+    padding-bottom: 150px;
+  }
   .burger-menu {
     width: 300px;
+  }
+  .header__title {
+    padding-bottom: 50px;
+  }
+  .header__subtitle {
+    margin: 0;
+  }
+
+  .section-title {
+    align-self: flex-start;
   }
   .hobbies__slider {
     width: 300px;
@@ -392,6 +408,10 @@ a {
   .arrow-right {
     right: 25px;
   }
+  .right-column {
+    border: none;
+  }
+
   .footer-wrapper {
     flex-direction: column;
     gap: 20px;

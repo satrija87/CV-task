@@ -1,4 +1,3 @@
-
 let burgerButton = document.querySelector(".menu-button");
 let menu = document.querySelector(".burger-menu");
 let crossButton = document.querySelector(".burger-cross");
@@ -19,8 +18,6 @@ burgerButton.addEventListener("click", openMenu);
 crossButton.addEventListener("click", closeMenu);
 overlay.addEventListener("click", closeMenu);
 link.forEach((link) => link.addEventListener("click", closeMenu));
-
-
 
 const prev = document.querySelector(".arrow-left");
 const next = document.querySelector(".arrow-right");
