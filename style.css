@@ -142,7 +142,7 @@ main {
 }
 
 .contacts__link:hover,
-.datamola-link:hover,
+.github-link:hover,
 .nav__link:hover {
   color: var(--title-color);
   text-decoration: underline;
@@ -235,7 +235,7 @@ footer {
   background-color: #b9b7b7;
 }
 .footer-date,
-.datamola-link {
+.github-link {
   color: var(--text-color);
   font-weight: 700;
 }
